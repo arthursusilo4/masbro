@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* custom gradient card */
+.action-gradient {
+    background: linear-gradient(135deg, #e61e2b 2%, #f36f24 80%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.action-gradient-revert {
+    background: linear-gradient(135deg, #f36f24 2%, #e61e2b 80%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.grey-gradient {
+    background: linear-gradient(135deg, #4c4b4b 2%, #8b8b8b 80%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
